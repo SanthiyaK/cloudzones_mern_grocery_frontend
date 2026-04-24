@@ -20,6 +20,7 @@ function App(){
           <a href="#home">Home</a>
           <a href="#products">Products</a>
           <a href="#contact">Contact</a>
+          <a href="#contact">About</a>
         </div>
       </nav>
 
