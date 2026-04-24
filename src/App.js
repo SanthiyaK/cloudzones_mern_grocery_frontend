@@ -27,6 +27,7 @@ function App(){
       {/* Hero Section */}
       <header className="hero" id="home">
         <h1 className="hero-title">Fresh Groceries, <br /><span className="gradient-text">Delivered Fast.</span></h1>
+        <h1 className="hero-title">Zomato<br /><span className="gradient-text">Delivered Fast.</span></h1>
         <p className="hero-subtitle">Experience the best quality products at CloudZones Grocery Store. Handpicked just for you.</p>
       </header>
 
