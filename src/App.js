@@ -5,7 +5,7 @@ function App(){
   const [products,setProducts] = useState([]);
 
   useEffect(()=>{
-     fetch("http://65.0.60.50:5000/products")
+     fetch("http://65.0.60.50:5001/products")
      .then(res=>res.json())
      .then(data=>setProducts(data))
      .catch(err => console.error("Error fetching products:", err));
