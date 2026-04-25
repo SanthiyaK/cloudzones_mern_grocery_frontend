@@ -5,7 +5,7 @@ function App(){
   const [products,setProducts] = useState([]);
 
   useEffect(()=>{
-     fetch("http://3.110.171.116:5000/products")
+     fetch("http://65.0.60.50:5000/products")
      .then(res=>res.json())
      .then(data=>setProducts(data))
      .catch(err => console.error("Error fetching products:", err));
@@ -27,7 +27,6 @@ function App(){
       {/* Hero Section */}
       <header className="hero" id="home">
         <h1 className="hero-title">Fresh Groceries, <br /><span className="gradient-text">Delivered Fast.</span></h1>
-        <h1 className="hero-title">Zomato<br /><span className="gradient-text">Delivered Fast.</span></h1>
         <p className="hero-subtitle">Experience the best quality products at CloudZones Grocery Store. Handpicked just for you.</p>
       </header>
 
